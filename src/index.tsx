@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
+// veio assim mas o modelo no vídeo da alura está igual o exemplo abaixo:
 const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+  document.getElementById('root') as HTMLElement //dentro do root é onde ele joga todo o React
 );
 root.render(
   <React.StrictMode>
@@ -13,7 +13,13 @@ root.render(
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// modelo do vídeo da alura:
+//ReactDOM.render(
+//  <React.StrictMode>
+//    <App />
+//  </React.StrictMode>,
+//  document.getElementById('root')
+//);
+
+
+
